@@ -1,0 +1,33 @@
+# ========================================
+- Create Shop Entity
+|_ ShopRepository
+|_ ShopService
+|_ ArtistShopDTO
+|_ ShopController
+  |--- getAllShop 
+  |--- addShop                     + EndPoint
+  |--- updateShop
+  |--- deleteShop
+  |--- switchIsCommission          + EndPoint
+  |--- minimalCommissionPrice      + EndPoint
+  |--- getShopWithOpenCommissions  + EndPoint 
+  |--- applyDiscountToAllArtPieces + EndPoint
+  |--- changeArtPieceOwnership     + EndPoint
+  |--- totalSold                   + EndPoint
+  |--- totalUnSold                 + EndPoint
+
+# ========================================
+- Create Product Entity
+|_ ProductRepository
+|_ ProductService 
+|_ ProductController
+  |--- getAllProducts
+  |--- addProduct
+  |--- updateProduct
+  |--- deleteProduct
+
+# ========================================
+- Create Two Methods in ArtPieceForSale
+|--- addArtPieceForSale          + EndPoint
+|--- addMultipleArtPieces        + EndPoint
+  
